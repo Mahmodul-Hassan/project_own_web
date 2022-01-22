@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Rationale&family=Red+Hat+Display:ital,wght@1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$primary_color: #da425e;
+$welcoming_text: "Red Hat Display", sans-serif;
+$secondary_font: "Rationale", sans-serif;
+$bg_clor: #ffffff;
+$secondary_text: #000000;
+
+body {
+  background-color: $bg_clor;
+  background-image: url(/img/bg.png);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-color: $bg_clor;
+  background-position-x: right;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  .top_left_nav {
+    img {
+      width: 60px;
+      margin: 10px 0px 0px 50px;
+      display: flex;
+    }
+    .logo {
+      margin-top: -3rem;
+    }
+  }
+}

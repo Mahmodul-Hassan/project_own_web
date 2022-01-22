@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Rationale&family=Red+Hat+Display:ital,wght@1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    background-image: url(img/bg.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    background-position-x: right;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top>.top_left_nav>img {
+    width: 60px;
+    margin: 10px 0px 0px 50px;
+    display: flex;
+}
+
+.top>.top_left_nav>.logo {
+    margin-top: -3rem;
+}
+
+.top>.top_right_nav>ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 90px 0px 0px;
+}
+
+.top>.top_right_nav>ul>li {
+    list-style: none;
+}
+
+.top>.top_right_nav>ul>li>a {
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Rationale', sans-serif;
+    color: #FFFFFF;
+}
+
+.middle_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -90px;
+}
+
+.middle_content>.text {
+    margin-top: 9rem;
+    margin-left: -5rem;
+}
+
+.middle_content>.text>.first>h3 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 3rem;
+    color: #000000;
+}
+
+.middle_content>.text>.second>h3 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 3rem;
+    color: #000000;
+    margin-left: 50px;
+    margin-top: -1.3rem;
+}
+
+.middle_content>.text>.third>p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.1rem;
+    color: #000000;
+    margin-left: 15em;
+    margin-top: -1.3rem;
+}
+
+.middle_content>.img>img {
+    width: 20rem;
+}
+
+.last_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.last_content>.button>a {
+    background-color: #DA425E;
+    color: #FFFFFF;
+    margin-left: -5rem;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 5px 20px 5px 20px;
+    font-size: 1.1rem;
+}
+
+.last_content>.text {
+    color: #FFFFFF;
+    font-family: 'Rationale', sans-serif;
+}
+
+.last_content>.text>h3 {
+    font-size: 2.3rem;
+}
+
+.last_content>.text>p {
+    font-size: 1.3rem;
+    margin-top: -1rem;
+}
+
+.social_icon {
+    display: flex;
+    margin-left: 3.5rem;
+}
+
+.social_icon>div {
+    margin-right: 2rem;
+    margin-top: 5rem;
+}
+
+.social_icon>div>img {
+    width: 3rem;
+}
